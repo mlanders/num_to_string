@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import github from './github.png';
 
 import { checkNum } from './checkNum';
 
@@ -21,6 +22,10 @@ function App() {
             />
 
             <div style={{ marginTop: '15px' }}>{output}</div>
+
+            <a href="https://github.com/mlanders/num_to_string">
+                <img src={github} alt="GitHub" style={{ width: '50px' }} />
+            </a>
         </div>
     );
 }
