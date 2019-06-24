@@ -24,7 +24,11 @@ function App() {
             <div style={{ marginTop: '15px' }}>{output}</div>
 
             <a href="https://github.com/mlanders/num_to_string">
-                <img src={github} alt="GitHub" style={{ width: '50px' }} />
+                <img
+                    src={github}
+                    alt="GitHub"
+                    style={{ width: '50px', marginTop: '15px' }}
+                />
             </a>
         </div>
     );
