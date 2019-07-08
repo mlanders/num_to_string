@@ -23,6 +23,6 @@ export const checkNum = num => {
         case 6: // Hundred Thousand
             return sixNum(tens, hundreds, hundredThousand);
         default:
-            return 'No input';
+            return '';
     }
 };
